@@ -1,0 +1,73 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<script src="javascript.js"></script>
+</head>
+<body onload="popuni()">
+<div class="header">
+<img class="slika"src="bigstock-Cute-friendly-pets-on-white-ba-169871522.jpg">
+<img class="animacija" id="rot1" src="Asset-5.png" >
+<div class="navbar">
+ <a href="naslovna.html"> O nama |</a>
+  <div class="dropdown"> 
+    <button class="dropbtn"> Usluge |</button>
+   <div class="dropdown-content">	
+     <a href="preventiva.html"> Preventiva </a>
+     <a href="#"> Lečenje </a>
+     <a href="#"> Vakcinacija </a>
+	 <a href="#"> Sterilizacija </a>
+	 <a href="#"> Hirurgija </a>
+   </div>
+  </div>  	
+ <a href="pansion.html"> Pansion |</a>
+ <a href="galerija.html"> Galerija |</a>
+ <a href="#"> Kontakt </a>
+</div>
+</div>
+
+<div class="hamburger">
+ <img class="ham"  src="hamburger.png">
+<div class="padajuci">
+<a href="#"> O nama </a>
+  <div class="dropdown"> 
+    <button class="dropbtn"> Usluge </button>
+   <div class="dropdown-content">	
+     <a href="preventiva.html"> Preventiva </a>
+     <a href="#"> Lečenje </a>
+     <a href="#"> Vakcinacija </a>
+	 <a href="#"> Sterilizacija </a>
+	 <a href="#"> Hirurgija </a>
+   </div>
+  </div>  	
+ <a href="pansion.html"> Pansion </a>
+ <a href="galerija.html"> Galerija </a>
+ <a href="#"> Kontakt </a>
+</div>
+</div>
+<hr>
+
+<div class="kontakt">
+<div class="forma">    
+<form>      
+<h3>Kontakt:</h3>     
+Ime: <input id="ime" type="text" > 
+Prezime: <input id="prezime" type="text" >      
+Broj: <input type="text" name="broj">      
+E-mail: <input type="email" name="email"> 
+Lozinka: <input type="password" name="lozinka">
+Poruka: <textarea placeholder="poruka"> </textarea>    
+<button type="button" onClick="myFunction()"> Unesi </button> 
+   <p id="p1"> </p>
+   <input type="submit" value="Prosledi" onclick="kolacic()" >    <input type="reset" value="Poništi"> 
+ </form>   
+ </div>  
+ </div>
+
+<div class="footer">
+<p> Veterinarska ordinacija sa pet šopom i pansionom za ljubimce | telefon:+381 645-96-82 | e-mail: vet@gmail.com | Bulevar Kralja Petra 15 | Novi Sad 21000 | Republika Srbija </p>
+</div>
+</body>
+</html>

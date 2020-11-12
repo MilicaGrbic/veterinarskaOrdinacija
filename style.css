@@ -1,0 +1,346 @@
+.parallax1 {background-image: url(header_first_vet_visit.jpg);
+           height:700px;  
+           background-attachment: fixed;  
+           background-position: center;  
+           background-repeat: no-repeat;  
+           background-size: cover; 
+		   margin-left:-15px;
+		   margin-right:-15px;
+           margin-top:-20px}
+
+.sadrzaj {font-size: 30px;  
+          font-weight: bold;  
+          letter-spacing: 3px;  
+          text-align: center;  
+          font-family: "Bradley Hand";  
+          color: black; 
+          padding-top: 350px}
+
+.dugme {margin-top: 30px;  
+        padding: 15px;  
+        border: 1px solid black;
+        background-color:black;		
+        color:gray;  
+        font-weight: bold}
+
+.dugme:hover {border: none;  
+              background-color:gray;  
+              color: white} 
+
+.parallax2 {background-image: url(Cats_Dogs_Puppy_White_501978.jpg);
+            height:700px;  
+            background-attachment: fixed;  
+            background-position: center;  
+            background-repeat: no-repeat;  
+            background-size: cover; 
+		    margin-left:-15px;
+		    margin-right:-15px;
+            margin-bottom:-20px}
+		
+.sadrzaj1 {font-size: 25px;  
+           font-weight: bold;    
+           text-align: center;  
+           font-family: "Bradley Hand";  
+           color: black; 
+           padding-top:25px;
+		   padding-left:100px}
+		   
+p {font-size:15px}
+
+.slika {height:40%;
+        width:50%;
+        margin-left:25%}
+		
+.navbar{width:50%;
+        margin-top:-2%;
+        padding:25px;
+        position:absolute;
+        text-align:center;
+		margin-left:28%;
+		overflow:hidden}		
+		
+.navbar a {float:left;
+		   padding:10px;
+		   font-size:24px;
+           font-family: "Bradley Hand";
+		   color:gray;
+		   background-color:white;
+		   text-decoration:none} 
+   
+.dropdown {float:left;
+           overflow:hidden}
+		   
+.dropdown .dropbtn {font-size: 24px;  
+                    border: none;
+                    outline: none;
+                    color:gray;
+					background-color:white;
+                    display:inline-block;
+		            padding:10px;
+		            font-family: "Bradley Hand"
+                    }
+					
+.navbar a:hover,
+.dropdown:hover .dropbtn {color: white;
+                          background-color: gray}
+					 
+.dropdown-content {display: none;
+                   background-color: gray;
+                   color:white}
+
+.dropdown-content a {float: none;
+                     font-size:20px;
+                     color: gray;
+					 background-color:ehite;
+                     padding: 10px;
+                     text-decoration: none;
+                     display: block;
+                     text-align: center}
+
+.dropdown-content a:hover {color:white;
+	                       background-color: gray}
+
+.dropdown:hover .dropdown-content {display: block}
+
+.onama {margin:50px;
+        font-size:20px;
+        font-family: "Bradley Hand";  
+		text-align: justify;  
+		color: gray;  
+		text-indent: 30px}
+
+.slika1 {margin:50px;
+	     height:45%;
+         float:right}
+		
+.footer {margin:-8px;
+	     text-align: center;
+         color: white;  
+		 font-family: "Bradley Hand";  
+		 background-color: gray;
+         font-size:16px;
+         padding: 5px }
+	
+.slika2 {margin:50px;
+         height:38%;
+         float:left}
+		 
+.slika3 {margin:50px;
+         height: 38%;
+         float:right}
+		 
+.preventiva {margin:60px;
+             font-size:20px;
+             font-family: "Bradley Hand";  
+		     text-align: justify;  
+             color: gray}
+
+li{margin-left:250px}
+
+a{font-family:"Bradley Hand";
+  font-size:16px;
+  color:gray}
+	  
+.kontakt {margin-top: -8px; 
+          margin-right:-6px;
+          height: 800px;
+          background-image: url(business-dog-paws-on-keyboard_4460x4460.jpg);
+          background-position: center; 
+          background-repeat: no-repeat; 
+          background-size: cover}
+		  
+.forma {color: gray;  
+        width: 300px;  
+        margin-left:20px; 
+        padding: 10px;  
+		text-align: left;  
+		font-size: 20px;  
+		font-family: "Bradley Hand"}  
+		
+input {display: block;   
+       padding: 5px; 
+       margin: auto}
+
+input:focus {border: 3px solid gray } 
+ 
+textarea {width: 210px;  
+          height: 80px; 
+          margin: 20px;
+          font-size: 15px}
+
+textarea:focus {border: 3px solid gray }
+
+button[type=button] {width: 25%;
+  background-color: white;
+  color: gray;
+  padding: 15px;
+  margin-left: 55px;
+  border: 1 solid gray;
+  border-radius: 4px;
+  display:inline-block}
+  
+button[type=button]:hover {color:white;
+                          background-color: gray;
+						  }
+	
+input[type=submit] {
+  width: 25%;
+  background-color: gray;
+  color: white;
+  padding: 15px;
+  margin: 8px;
+  border: none;
+  border-radius: 4px;
+  display:inline-block}
+  
+input[type=submit]:hover {color:gray;
+                          background-color: white;
+						  border: 1px solid gray}
+
+input[type=reset] {
+  width: 25%;
+  background-color: gray;
+  color: white;
+  padding: 15px;
+  margin: 8px;
+  border: none;
+  border-radius: 4px;
+  display:inline-block}
+  
+input[type=reset]:hover {color:gray;
+                          background-color: white;
+						  border: 1px solid gray}
+						  
+.galerija {margin:0}
+
+.galerija img {width:250;
+               height:350;
+	           margin-top:30px;			   
+               margin-left:60px;
+               margin-bottom: 25px;
+			   border: 1px solid gray}
+			   
+@keyframes setnja
+{
+0%   {top:0px; right:1200px}
+25%  {top:-100px; right:900px}
+50%  {top:5px; right:600px}
+75%  {top:-100px; right:300px}
+100% {top:5px; right:-1200px}
+}
+
+.animacija
+{
+width:100px;
+height:100px;
+} 
+
+img#rot1
+{
+position:relative;
+animation-name:setnja;
+animation-duration: 5s;
+animation-direction: normal;
+animation-iteration-count:1}
+
+
+.hamburger {display:none}
+
+@media screen and (max-width: 480px) 
+{ 
+
+.navbar {display: none} 
+
+.hamburger {display: block;   
+            margin:10px} 
+
+.ham {float:left;
+	  width:60px;
+      height:60px}
+		
+.padajuci {display:none;
+           position: absolute;
+		   text-align:center;
+		   overflow:hidden;   
+		   background-color: white}	
+		   
+.padajuci a {color: gray;
+             float:none;
+             background-color:white;
+             text-decoration: none;
+			 padding: 10px;  
+			 display: block;
+             font-size:20px;	
+             font-family: "Bradley Hand"}
+			 
+.hamburger:hover .padajuci {color:gray;
+	                        display:block;
+                            background-color:white}
+	   
+.dropdown .dropbtn {font-size: 20px;    
+					width:100% }
+					
+.slika{width:100%;
+       margin-left:-15px}
+	 
+.slika1 {float:none;
+         margin:0}
+
+.onama{text-align:center}
+
+.galerija{margin:0;}
+}
+
+#p1 {color:gray;
+     background-color:white;
+     font-size:20px;
+	 border: 1px solid gray}
+
+.pansion {margin-top: -8px; 
+          margin-right:-6px;
+		  margin-left:-10px;
+          height: 800px;
+          background-image: url(animal-black-and-white-cat-21297.jpg);
+          background-position: center; 
+          background-repeat: no-repeat; 
+          background-size: cover}
+		  
+.forma1 {color: gray; 
+         border: 1px gray solid; 
+         width: 300px; 
+         float:right;	
+         margin:50px;		 
+         padding: 10px;  
+		 text-align: center;  
+		 font-size: 20px;  
+		 font-family: "Bradley Hand"}  .
+
+.vr {color: gray;
+     float:none;
+     background-color:white;
+     text-decoration: none;
+	 padding: 10px;  
+	 display: block;
+     font-size:20px;	
+     font-family: "Bradley Hand"}
+			 
+
+#p2 {color:gray;
+     font-size:20px}
+	
+table {border-collapse: collapse;
+       width:50%}
+
+th, td {padding: 8px;
+        text-align: center;
+        border-bottom: 1px solid #ddd}
+
+tr:hover {background-color:#f5f5f5;}
+
+.galerija2 {margin:70px;}
+
+#sl {width:350px; height:400; margin-left:400px}
+#levo {text-decoration:none;font-weight:bold;padding-left:10%; font-family: "Bradley Hand"}
+#play {text-decoration:none;font-weight:bold;padding-left:30%; font-family: "Bradley Hand"}
+#desno {text-decoration:none;font-weight:bold;float:right;padding-right:10%; font-family: "Bradley Hand"}
+
